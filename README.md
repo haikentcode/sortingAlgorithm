@@ -25,6 +25,6 @@ Bubble-sort(a)
   for i = a.length() to 1
        for j = 1 to i-1
                  if a[j]>a[j+1]
-                          swap(a[j],a[j+1]);
+                          swap(a[j],a[j+1])
                  end if
 ```
