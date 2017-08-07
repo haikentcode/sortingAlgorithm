@@ -14,6 +14,7 @@ def sort(array,reversed=False):
         j = 0
         while j < arraySize-i-1:
             if comp(array[j],array[j+1],reversed):
+                #swap a,b = b,a
                 tmp = array[j]
                 array[j] = array[j+1]
                 array[j+1] = tmp
